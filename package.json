@@ -1,0 +1,31 @@
+{
+  "name": "some",
+  "version": "1.0.0",
+  "description": "从零搭建一个vue2+webpack4的项目结构",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinBinMatthew/some.git"
+  },
+  "author": "linbin07",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LinBinMatthew/some/issues"
+  },
+  "homepage": "https://github.com/LinBinMatthew/some#readme",
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
